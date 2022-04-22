@@ -380,13 +380,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
   position: relative;
   background: #f5f8fd url("../img/giphy5.gif") center top no-repeat;
   background-size: cover;
   padding-top: 110px;
 }
-
+#hero .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
 @media (max-width: 991px) {
   #hero {
     height: auto;
